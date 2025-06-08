@@ -9,7 +9,7 @@ tags:
 [点击下载](https://www.anaconda.com/docs/getting-started/miniconda/main)
 
 ## 安装以及环境变量配置
-```
+```bash
 bash ./Miniconda3-latest-Linux-x86_64.sh
 # 关闭终端重开一个
 

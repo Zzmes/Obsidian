@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "5d8e926b4ec7291e",
+        "id": "856c40324f5e54a8",
         "type": "tabs",
         "children": [
           {
-            "id": "97554af2f5361bab",
+            "id": "cb2522c256d33850",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -169,17 +169,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "97554af2f5361bab",
+  "active": "cb2522c256d33850",
   "lastOpenFiles": [
-    "Ubuntu/ubuntu 配置 SSH.md",
     "Ubuntu/ubuntu miniConda 配置.md",
-    "README.md",
-    "Ubuntu/ubutnu 终端zsh美化.md",
     "Ubuntu/Ubuntu 添加新用户.md",
+    "Ubuntu/ubutnu 终端zsh美化.md",
     "Git/Git使用SSH拉取代码，附带生成SSH Key.md",
     "Git/Github 托管本地项目.md",
     "C++/VSCODE 调试 C++ 、Python 混合编程代码.md",
     "C++/在 Docker 中使用 GDB 调试的方法.md",
+    "Ubuntu/ubuntu 配置 SSH.md",
+    "README.md",
     "Ubuntu/_resources/ubutnu 终端zsh美化/61f36fc8cf9267177487f0865dad4625_MD5.jpeg",
     "Ubuntu/_resources/ubutnu 终端zsh美化",
     "Pasted image 20250608182713.png",
