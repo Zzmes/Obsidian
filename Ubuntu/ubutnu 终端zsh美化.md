@@ -26,8 +26,8 @@ chsh -s /bin/zsh
 | fetch   | sh -c "$(fetch -o - https://install.ohmyz.sh/)"                                    |
 | 国内curl源 | sh -c "$(curl -fsSL https://gitee.com/pocmon/ohmyzsh/raw/master/tools/install.sh)" |
 | 国内wget源 | sh -c "$(wget -O- https://gitee.com/pocmon/ohmyzsh/raw/master/tools/install.sh)"   |
-[[61f36fc8cf9267177487f0865dad4625_MD5.jpeg|Open: Pasted image 20250608180140.png]]
-![[61f36fc8cf9267177487f0865dad4625_MD5.jpeg]]
+[[Ubuntu/_resources/ubutnu 终端zsh美化/61f36fc8cf9267177487f0865dad4625_MD5.jpeg|Open: Pasted image 20250608182713.png]]
+![[Ubuntu/_resources/ubutnu 终端zsh美化/61f36fc8cf9267177487f0865dad4625_MD5.jpeg]]
 这样on-my-zsh就安装成功了。
 
 ## 配置主题和插件
@@ -51,7 +51,7 @@ git clone https://gh.xmly.dev/https://github.com/zsh-users/zsh-autosuggestions $
 git clone https://gh.api.99988866.xyz/https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 ```
 -  zsh-syntax-highlighting插件：
-```
+```bash
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 
 # 中国用户可以使用下面任意一个加速下载

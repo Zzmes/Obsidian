@@ -3,6 +3,7 @@ tags:
   - 调试技巧
   - GDB
   - docker创建容器
+日期: 2025-06-08
 ---
 ## 创建 docker 容器
 启动 docker 容器命令*run*时，需要添加`--privileged`, `--cap-add=SYS_PTRACE`, `--security-opt seccomp=unconfined`参数，例如：

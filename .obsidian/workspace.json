@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "9aae3e44ce6e6925",
+        "id": "5d8e926b4ec7291e",
         "type": "tabs",
         "children": [
           {
-            "id": "901b4efbab13ec37",
+            "id": "97554af2f5361bab",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Ubuntu/img/61f36fc8cf9267177487f0865dad4625_MD5.jpeg"
+                "file": "Ubuntu/ubuntu 配置 SSH.md",
+                "mode": "preview",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "61f36fc8cf9267177487f0865dad4625_MD5"
+              "icon": "lucide-file",
+              "title": "ubuntu 配置 SSH"
             }
           }
         ]
@@ -139,13 +141,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ubuntu/img/61f36fc8cf9267177487f0865dad4625_MD5.jpeg",
+                "file": "Ubuntu/ubuntu 配置 SSH.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "61f36fc8cf9267177487f0865dad4625_MD5 的大纲"
+              "title": "ubuntu 配置 SSH 的大纲"
             }
           }
         ],
@@ -167,24 +169,33 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "901b4efbab13ec37",
+  "active": "97554af2f5361bab",
   "lastOpenFiles": [
     "Ubuntu/ubuntu miniConda 配置.md",
-    "Ubuntu/Ubuntu 添加新用户.md",
+    "README.md",
     "Ubuntu/ubutnu 终端zsh美化.md",
     "Ubuntu/ubuntu 配置 SSH.md",
-    "().md",
-    "miniconda.md",
-    "Ubuntu/miniconda.md",
-    "Ubuntu/img/61f36fc8cf9267177487f0865dad4625_MD5.jpeg",
-    "Ubuntu/img",
-    "Pasted image 20250608180140.png",
-    "C++/在 Docker 中使用 GDB 调试的方法.md",
+    "Ubuntu/Ubuntu 添加新用户.md",
     "Git/Git使用SSH拉取代码，附带生成SSH Key.md",
     "Git/Github 托管本地项目.md",
     "C++/VSCODE 调试 C++ 、Python 混合编程代码.md",
+    "C++/在 Docker 中使用 GDB 调试的方法.md",
+    "Ubuntu/_resources/ubutnu 终端zsh美化/61f36fc8cf9267177487f0865dad4625_MD5.jpeg",
+    "Ubuntu/_resources/ubutnu 终端zsh美化",
+    "Pasted image 20250608182713.png",
+    "Ubuntu/_resources",
+    "Pasted image 20250608182610.png",
+    "61f36fc8cf9267177487f0865dad4625_MD5.jpeg",
+    "Pasted image 20250608182456.png",
+    "e65899b6ac5d6bf2b4ebc65edfb495e0_MD5.jpeg",
+    "Pasted image 20250608182402.png",
+    "Ubuntu/img/61f36fc8cf9267177487f0865dad4625_MD5.jpeg",
+    "().md",
+    "miniconda.md",
+    "Ubuntu/miniconda.md",
+    "Ubuntu/img",
+    "Pasted image 20250608180140.png",
     "2025-06-08.md",
-    "README.md",
     "LICENSE"
   ]
 }
