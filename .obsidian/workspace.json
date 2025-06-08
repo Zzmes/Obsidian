@@ -4,17 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "52fbc581d599d3c2",
+        "id": "9aae3e44ce6e6925",
         "type": "tabs",
         "children": [
           {
-            "id": "5d117e5562065ff0",
+            "id": "901b4efbab13ec37",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新标签页"
+              "type": "image",
+              "state": {
+                "file": "Ubuntu/img/61f36fc8cf9267177487f0865dad4625_MD5.jpeg"
+              },
+              "icon": "lucide-image",
+              "title": "61f36fc8cf9267177487f0865dad4625_MD5"
             }
           }
         ]
@@ -90,6 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "C++/VSCODE 调试 C++ 、Python 混合编程代码.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +102,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "反向链接"
+              "title": "VSCODE 调试 C++ 、Python 混合编程代码 的反向链接列表"
             }
           },
           {
@@ -136,25 +139,26 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Ubuntu/img/61f36fc8cf9267177487f0865dad4625_MD5.jpeg",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "61f36fc8cf9267177487f0865dad4625_MD5 的大纲"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
+      "switcher:打开快速切换": false,
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
@@ -163,14 +167,24 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "5d117e5562065ff0",
+  "active": "901b4efbab13ec37",
   "lastOpenFiles": [
-    "README.md",
-    "Git/Github 托管本地项目.md",
-    "LICENSE",
-    "Git/Git使用SSH拉取代码，附带生成SSH Key.md",
+    "Ubuntu/ubuntu miniConda 配置.md",
+    "Ubuntu/Ubuntu 添加新用户.md",
+    "Ubuntu/ubutnu 终端zsh美化.md",
+    "Ubuntu/ubuntu 配置 SSH.md",
+    "().md",
+    "miniconda.md",
+    "Ubuntu/miniconda.md",
+    "Ubuntu/img/61f36fc8cf9267177487f0865dad4625_MD5.jpeg",
+    "Ubuntu/img",
+    "Pasted image 20250608180140.png",
     "C++/在 Docker 中使用 GDB 调试的方法.md",
+    "Git/Git使用SSH拉取代码，附带生成SSH Key.md",
+    "Git/Github 托管本地项目.md",
     "C++/VSCODE 调试 C++ 、Python 混合编程代码.md",
-    "Ubuntu/Ubuntu 添加新用户.md"
+    "2025-06-08.md",
+    "README.md",
+    "LICENSE"
   ]
 }

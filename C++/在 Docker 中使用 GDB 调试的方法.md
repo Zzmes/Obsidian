@@ -12,10 +12,10 @@ docker run --privileged -d -it  --cap-add=SYS_PTRACE --security-opt seccomp=unco
 
 创建容器案例：
 ```bash
-docker run -itd -p 10001:22 --gpus all --shm-size=8G -v /home/zzmes/code:/home/code -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY=unix$DISPLAY -e GDK_SCALE -e GDK_DPI_SCALE --name cuda128 468c101db63b /bin/bash
+docker run --privileged -itd -p 10001:22 --cap-add=SYS_PTRACE --security-opt seccomp=unconfined --gpus all --shm-size=8G -v /home/zzmes/code:/home/code -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY=unix$DISPLAY -e GDK_SCALE -e GDK_DPI_SCALE --name cuda128 468c101db63b /bin/bash
 ```
 
 如果不需要实现端口映射：
 ```bash
-docker run -itd --ipc=host --net=host gpus all --shm-size=8G -v /home/zzmes/code:/home/code -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY=unix$DISPLAY -e GDK_SCALE -e GDK_DPI_SCALE --name cuda128 468c101db63b /bin/bash
+docker run --privileged -itd --ipc=host --net=host --cap-add=SYS_PTRACE --security-opt seccomp=unconfined --gpus all --shm-size=8G -v /home/zzmes/code:/home/code -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY=unix$DISPLAY -e GDK_SCALE -e GDK_DPI_SCALE --name cuda128 468c101db63b /bin/bash
 ```
