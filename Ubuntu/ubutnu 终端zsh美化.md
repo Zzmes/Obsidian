@@ -26,6 +26,8 @@ chsh -s /bin/zsh
 | fetch   | sh -c "$(fetch -o - https://install.ohmyz.sh/)"                                    |
 | 国内curl源 | sh -c "$(curl -fsSL https://gitee.com/pocmon/ohmyzsh/raw/master/tools/install.sh)" |
 | 国内wget源 | sh -c "$(wget -O- https://gitee.com/pocmon/ohmyzsh/raw/master/tools/install.sh)"   |
+
+
 [[Ubuntu/_resources/ubutnu 终端zsh美化/61f36fc8cf9267177487f0865dad4625_MD5.jpeg|Open: Pasted image 20250608182713.png]]
 ![[Ubuntu/_resources/ubutnu 终端zsh美化/61f36fc8cf9267177487f0865dad4625_MD5.jpeg]]
 这样on-my-zsh就安装成功了。
