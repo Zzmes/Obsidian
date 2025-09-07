@@ -20,3 +20,21 @@ docker run --privileged -itd -p 10001:22 --cap-add=SYS_PTRACE --security-opt sec
 ```bash
 docker run --privileged -itd --ipc=host --net=host --cap-add=SYS_PTRACE --security-opt seccomp=unconfined --gpus all --shm-size=8G -v /home/zzmes/code:/home/code -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY=unix$DISPLAY -e GDK_SCALE -e GDK_DPI_SCALE --name cuda128 468c101db63b /bin/bash
 ```
+
+进入容器后加入命令（临时修改）：
+```shell
+echo 0 > /proc/sys/kernel/yama/ptrace_scope
+```
+
+```bash
+ docker run --privileged --runtime nvidia \
+  --env NVIDIA_DRIVER_CAPABILITIES=compute,utility,graphics \
+  --env TZ=Asia/Shanghai \
+  -it --network host --shm-size=8g \
+  --cap-add=SYS_PTRACE \
+  --security-opt seccomp=unconfined \
+  -v /home/zzmes/workspace/code:/workspace \
+  --device /dev/bus/usb \
+  -v /run/jtop.sock:/run/jtop.sock \
+  --name jetson_nano 244f7898f790
+```

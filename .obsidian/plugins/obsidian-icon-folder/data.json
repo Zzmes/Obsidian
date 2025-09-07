@@ -5,7 +5,12 @@
     "fontSize": 16,
     "emojiStyle": "native",
     "iconColor": null,
-    "recentlyUsedIcons": [],
+    "recentlyUsedIcons": [
+      "LiImage",
+      "LiFolder",
+      "RiMarkdownFill",
+      "LiFile"
+    ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
     "extraMargin": {
@@ -27,5 +32,25 @@
     "lucideIconPackType": "native",
     "debugMode": false,
     "useInternalPlugins": false
-  }
+  },
+  "C++/在 Docker 中使用 GDB 调试的方法.md": "RiMarkdownFill",
+  "C++/VSCODE 调试 C++ 、Python 混合编程代码.md": "RiMarkdownFill",
+  "Git/Git使用SSH拉取代码，附带生成SSH Key.md": "RiMarkdownFill",
+  "C++": "LiFolder",
+  "Git": "LiFolder",
+  "Ubuntu": "LiFolder",
+  "Git/Github 托管本地项目.md": "RiMarkdownFill",
+  "Ubuntu/_resources": "LiFolder",
+  "Ubuntu/_resources/ubutnu 终端zsh美化": "LiFolder",
+  "Ubuntu/_resources/ubutnu 终端zsh美化/61f36fc8cf9267177487f0865dad4625_MD5.jpeg": "LiImage",
+  "Ubuntu/ubuntu 配置 SSH.md": "RiMarkdownFill",
+  "Ubuntu/Ubuntu 添加新用户.md": "RiMarkdownFill",
+  "Ubuntu/ubuntu miniConda 配置.md": "RiMarkdownFill",
+  "Ubuntu/ubutnu 终端zsh美化.md": "RiMarkdownFill",
+  "TensorRT": "LiFolder",
+  "PyTorch": "LiFolder",
+  "Ubuntu/Jetson orin Nano 增加交换空间.md": "RiMarkdownFill",
+  "PyTorch/PyTorch源码编译.md": "RiMarkdownFill",
+  "C++/指针与引用.md": "RiMarkdownFill",
+  "Ubuntu/ZSH配置.md": "RiMarkdownFill"
 }
