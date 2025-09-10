@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "208389517f1c1dc5",
+        "id": "e2107d992d9abe91",
         "type": "tabs",
         "children": [
           {
-            "id": "70824cbb884aa81d",
+            "id": "996cd58644e7fd32",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ubuntu/ZSH配置.md",
+                "file": "C++/VSCODE 调试 C++ 、Python 混合编程代码.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ZSH配置"
+              "title": "VSCODE 调试 C++ 、Python 混合编程代码"
+            }
+          },
+          {
+            "id": "3426746cbf1a1826",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ubuntu/Ubuntu Server 配置 Clash.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Ubuntu Server 配置 Clash"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -141,23 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ubuntu/ZSH配置.md",
+                "file": "Ubuntu/Ubuntu Server 配置 Clash.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "ZSH配置 的大纲"
-            }
-          },
-          {
-            "id": "7d40f87c7a90da58",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "title": "Ubuntu Server 配置 Clash 的大纲"
             }
           }
         ],
@@ -165,11 +170,10 @@
       }
     ],
     "direction": "horizontal",
-    "width": 362.5
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:创建新数据库": false,
       "graph:查看关系图谱": false,
       "switcher:打开快速切换": false,
       "canvas:新建白板": false,
@@ -177,32 +181,29 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "obsidian-local-images-plus:Local Images Plus  0.16.3\r\nLocalize attachments (plugin folder)": false,
-      "templater-obsidian:Templater": false,
-      "obsidian-kanban:创建新看板": false
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "70824cbb884aa81d",
+  "active": "5a2d7241a2012741",
   "lastOpenFiles": [
+    "Ubuntu/Ubuntu 添加新用户.md",
+    "Ubuntu/ubuntu 配置 SSH.md",
     "Ubuntu/Jetson orin Nano 增加交换空间.md",
-    "Ubuntu/ZSH配置.md",
     "README.md",
+    "Ubuntu/ubuntu miniConda 配置.md",
+    "Ubuntu/Ubuntu Server 配置 Clash.md",
     "C++/在 Docker 中使用 GDB 调试的方法.md",
     "C++/指针与引用.md",
-    "PyTorch/PyTorch源码编译.md",
-    "Git/Github 托管本地项目.md",
-    "Ubuntu/Ubuntu 添加新用户.md",
-    "PyTorch",
-    "C++/VSCODE 调试 C++ 、Python 混合编程代码.md",
-    "Ubuntu/ubutnu 终端zsh美化.md",
-    "Ubuntu/ubuntu 配置 SSH.md",
-    "Ubuntu/ubuntu miniConda 配置.md",
-    "Ubuntu/_resources/ubutnu 终端zsh美化/61f36fc8cf9267177487f0865dad4625_MD5.jpeg",
-    "TensorRT",
+    "Ubuntu/ZSH配置.md",
     "Git/Git使用SSH拉取代码，附带生成SSH Key.md",
-    "C++/C++基础—认识变量和输出.md",
-    "未命名看板.md",
-    "你好.md",
-    "你好 1.md",
+    "Ubuntu/ubutnu 终端zsh美化.md",
+    "C++/VSCODE 调试 C++ 、Python 混合编程代码.md",
+    "PyTorch/PyTorch源码编译.md",
+    "PyTorch",
+    "C++基础/C++基础（一）：认识变量和输出.md",
+    "Git/Github 托管本地项目.md",
+    "C++基础",
+    "Ubuntu/_resources/ubutnu 终端zsh美化/61f36fc8cf9267177487f0865dad4625_MD5.jpeg",
     "Ubuntu/_resources/ubutnu 终端zsh美化",
     "Pasted image 20250608182713.png",
     "Ubuntu/_resources",
